@@ -1,11 +1,18 @@
 body {
     font-family: 'Roboto', Tahoma, sans-serif;
-
 }
 
 .container {
-border: 1px dotted blue;
-padding: 1em;
-margin: 1em;
+    border: 1px dotted blue;
+    background: #FFF;
+    padding: 1em;
+    margin: 1em;
+}
 
+.plane {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    z-index: -1;
 }
